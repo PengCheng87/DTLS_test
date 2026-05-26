@@ -1,0 +1,23 @@
+# Build output
+release/*.o
+release/DTLS_P2P.exe
+release/*.dll
+release/*.a
+release/moc_mainwindow.cpp
+release/generic/
+release/imageformats/
+release/networkinformation/
+release/platforms/
+release/styles/
+release/tls/
+release/translations/
+
+# Qt
+*.pro.user
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# IDE
+.vscode/
+.qt/
