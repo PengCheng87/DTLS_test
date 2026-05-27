@@ -17,6 +17,11 @@ release/translations/
 moc_*.cpp
 ui_*.h
 qrc_*.cpp
+*.qmake.stash
+Makefile
+Makefile.*
+mainwindow.h.bak
+.claude/
 
 # IDE
 .vscode/
