@@ -9,4 +9,4 @@ SOURCES += \
 HEADERS += \
     mainwindow.h
 
-LIBS += -lssl -lcrypto -lws2_32
+# Qt6Network already links OpenSSL internally — no extra LIBS needed
